@@ -30,7 +30,7 @@ services:
   cloudflare-tunnel:
     # service : http://nextcloud-aio-mastercontainer:11002
     image: 'cloudflare/cloudflared:latest'
-    container_name: nextcloud-aio-cloudflare
+    #container_name: nextcloud-aio-cloudflare
     networks:
       - nextcloud-aio
     restart: 'unless-stopped'
