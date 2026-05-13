@@ -43,4 +43,6 @@ volumes:
     external: true
 networks:
   nextcloud-aio:
-    external: true
+    name: nextcloud-aio   # Dieser Name darf NICHT geändert werden
+    driver: bridge
+    # external: true  ← diese Zeile entfernen oder auskommentieren
